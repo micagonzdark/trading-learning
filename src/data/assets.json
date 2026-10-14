@@ -1,0 +1,9 @@
+[
+  { "ticker": "MELI", "name": "MercadoLibre Inc.", "isBenchmark": false },
+  { "ticker": "SPOT", "name": "Spotify Technology S.A.", "isBenchmark": false },
+  { "ticker": "AAPL", "name": "Apple Inc.", "isBenchmark": false },
+  { "ticker": "MSFT", "name": "Microsoft Corporation", "isBenchmark": false },
+  { "ticker": "NVDA", "name": "NVIDIA Corporation", "isBenchmark": false },
+  { "ticker": "DIS", "name": "The Walt Disney Company", "isBenchmark": false },
+  { "ticker": "SPY", "name": "SPDR S&P 500 ETF Trust", "isBenchmark": true }
+]
