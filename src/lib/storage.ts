@@ -27,6 +27,15 @@ export function getRules(customDir?: string): MarketRules {
 }
 
 /**
+ * Guarda las reglas de la liga en data/reglas.json
+ */
+export function saveRules(rules: MarketRules, customDir?: string): void {
+  const dir = getDataDirectory(customDir);
+  const filePath = path.join(dir, 'reglas.json');
+  fs.writeFileSync(filePath, JSON.stringify(rules, null, 2), 'utf-8');
+}
+
+/**
  * Carga las carteras de los jugadores desde data/carteras.json
  */
 export function getPortfolios(customDir?: string): PlayerPortfolios {

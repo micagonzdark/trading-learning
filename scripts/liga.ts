@@ -14,6 +14,7 @@ import {
   getRules,
   getPortfolios,
   savePortfolios,
+  saveRules,
   appendPricesCsv,
   appendAgentDiary
 } from '../src/lib/storage';
@@ -237,6 +238,14 @@ export async function runLigaScript(options: RunOptions = {}): Promise<RunMetric
     const rules: MarketRules = getRules(dataDir);
     let portfolios: PlayerPortfolios = getPortfolios(dataDir);
     const currentDate = new Date().toISOString().split('T')[0];
+
+    // Si la fecha de inicio no fue fijada, se toma la del día de la primera corrida real
+    if (!rules.fechaInicio || rules.fechaInicio === 'auto' || rules.fechaInicio === '') {
+      rules.fechaInicio = currentDate;
+      saveRules(rules, dataDir);
+      log(`[Reglas] Fecha de inicio inicializada automáticamente con la fecha actual: ${currentDate}`);
+    }
+
     const tickersToFetch = [...rules.empresasPermitidas, rules.indiceReferencia];
 
     // Cargar instrucciones del agente desde agente/instrucciones.md

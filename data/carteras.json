@@ -5,79 +5,13 @@
     "history": []
   },
   "agente": {
-    "cash": 474.16,
-    "positions": [
-      {
-        "ticker": "SPOT",
-        "shares": 1,
-        "avgPrice": 524.22
-      }
-    ],
-    "history": [
-      {
-        "id": "ord_mv8ygajx_ip27",
-        "timestamp": "2026-10-15T03:04:19.053Z",
-        "ticker": "DIS",
-        "type": "SELL",
-        "shares": 1,
-        "price": 108.99,
-        "executedPrice": 108.94,
-        "commission": 0.5,
-        "slippage": 0.05,
-        "totalCost": 108.44,
-        "reason": "Disney (DIS) ha tenido un desempeño reciente a la baja, y las noticias sugieren una incertidumbre respecto a su estabilidad. La venta de esta posición ayudará a asegurar ganancias y a mantener una cartera más equilibrada ante la volatilidad actual."
-      },
-      {
-        "id": "ord_mv8yccqh_7s2i",
-        "timestamp": "2026-10-15T03:01:15.257Z",
-        "ticker": "SPOT",
-        "type": "BUY",
-        "shares": 1,
-        "price": 523.96,
-        "executedPrice": 524.22,
-        "commission": 0.52,
-        "slippage": 0.26,
-        "totalCost": 524.74,
-        "reason": "Spotify está revolucionando la industria del audio digital con su plataforma innovadora y una base de suscriptores en constante crecimiento. ¡Cada acción que compro de SPOT es una inversión en el futuro de la música y el streaming!"
-      },
-      {
-        "id": "ord_mv8yacm4_9769",
-        "timestamp": "2026-10-15T02:59:41.788Z",
-        "ticker": "DIS",
-        "type": "BUY",
-        "shares": 1,
-        "price": 108.99,
-        "executedPrice": 109.04,
-        "commission": 0.5,
-        "slippage": 0.05,
-        "totalCost": 109.54,
-        "reason": "Disney presenta un análisis positivo a largo plazo, con razones sólidas para duplicar su valor en 5 años, mientras que las demás acciones enfrentan noticias negativas significativas."
-      }
-    ]
+    "cash": 1000,
+    "positions": [],
+    "history": []
   },
   "indice": {
-    "cash": 229.25,
-    "positions": [
-      {
-        "ticker": "SPY",
-        "shares": 1,
-        "avgPrice": 769.98
-      }
-    ],
-    "history": [
-      {
-        "id": "ord_mv8xz3cv_nc2q",
-        "timestamp": "2026-10-15T02:50:56.575Z",
-        "ticker": "SPY",
-        "type": "BUY",
-        "shares": 1,
-        "price": 769.6,
-        "executedPrice": 769.98,
-        "commission": 0.77,
-        "slippage": 0.38,
-        "totalCost": 770.75,
-        "reason": "Primera corrida: Inversión pasiva en índice de referencia SPY"
-      }
-    ]
+    "cash": 1000,
+    "positions": [],
+    "history": []
   }
 }
