@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "liga": "tsx scripts/liga.ts",
+    "evals": "tsx scripts/evals.ts"
   },
   "dependencies": {
     "dotenv": "^18.0.8",

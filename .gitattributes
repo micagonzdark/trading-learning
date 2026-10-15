@@ -1,0 +1,4 @@
+# Garantizar finales de línea UNIX (LF) para scripts bash de macOS
+*.command text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf

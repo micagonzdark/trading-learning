@@ -124,3 +124,32 @@
   - **Corrida 2**: Se ejecutó de nuevo el script. Se verificó que "indice" mantuvo su posición previa en SPY (no duplicó ni pisó datos). El modelo propuso AAPL; el validador rechazó por superar el 20% de exposición máxima. `precios.csv` sumó 7 nuevas filas (15 en total) y `diario.md` agregó su segunda entrada (33 líneas).
   - **Corrida 3 (Modo Escenario `baja12`)**: Se ejecutó con precios simulados con -12%. "indice" sufrió la caída del mercado a $722.05 USD (-27.80%), el agente compró 1 acción de AAPL a precio de descuento ($193.70 USD) ajustado por la regla. Al finalizar, el directorio temporal fue destruido y los archivos reales de `data/` se mantuvieron 100% inalterados (15 filas en CSV, 33 líneas en MD).
 - **Tiempo Fase 7**: ~5 minutos.
+
+---
+
+## Conversión a Plantilla de Clase (90 Minutos - Alumno de 13 Años)
+- **Separación de Instrucciones y Reglas**:
+  - Se creó `agente/instrucciones.md` en lenguaje natural con explicaciones claras, ideas para experimentar ("Inversor Fanático de Tech", "Cazador de Gangas", "Ultra-Conservador") y comentarios guía.
+  - Se actualizó `data/reglas.json` con campo de ayuda guía.
+- **Prueba de Efecto Realizada y Verificada**:
+  - Al cambiar las instrucciones de un agente prudente a un "Fanático de Spotify", la propuesta del modelo cambió inmediatamente de `ESPERAR` a `COMPRAR 1 SPOT` con justificación fanática sobre el streaming.
+  - El validador por código rechazó la compra bajo el límite del 20% ($523.96 > $200).
+  - Al modificar `data/reglas.json` subiendo el límite a 60% ($600), la misma orden fue **inmediatamente aceptada y ejecutada por el motor**, descontando saldo y sumando la posición.
+- **Modo Demo con Caché (`--usar-cache`)**:
+  - Guarda y reutiliza en `data/cache_mercado.json` **únicamente los precios y las noticias**.
+  - El modelo LLM OpenAI siempre corre en vivo.
+  - **Medición de tiempo**: La corrida completa pasó de **6.42 segundos** (en vivo) a **1.18 segundos** (con caché), manteniendo la decisión en tiempo real de la IA.
+- **Parseo Endurecido y Resiliencia**:
+  - Salida estructurada con esquema estricto.
+  - Ciclo de auto-reintento con feedback (hasta 2 veces) si falta un campo o el JSON está mal formado.
+  - Manejo inteligente de la acción `esperar` sin forzar la elección de un activo.
+- **Auditoría de Lanzador para macOS**:
+  - Se revisó `Abrir Trading Learning.command` línea por línea.
+  - Se configuró `.gitattributes` para forzar finales de línea UNIX (LF) y evitar fallas por CRLF.
+  - Se incluyeron rutas `/opt/homebrew/bin` para compatibilidad total con Apple Silicon.
+  - Se documentaron en `PENDIENTES_MANUALES.md` los aspectos no verificables en Windows (Finder double-click, Gatekeeper quarantine, `/usr/bin/open` nativo).
+- **Guía del Alumno**:
+  - Se creó `README_ALUMNO.md` de exactamente 13 líneas (límite de 15) explicando qué editar, cómo correr y cómo operar en el simulador en una sola línea.
+- **Plan B Stooq y CI/CD**:
+  - Se probó `--proveedor stooq` localmente: el sistema detectó el bloqueo 403 de Stooq y activó el fallback referencial sin interrumpir la liga.
+  - Se mantuvieron los evals automáticos en estado **APROBADO (7/7)** y compilación de Next.js Turbopack en 0 errores.
