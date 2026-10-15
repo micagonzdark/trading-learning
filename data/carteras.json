@@ -1,0 +1,17 @@
+{
+  "moises": {
+    "cash": 1000,
+    "positions": [],
+    "history": []
+  },
+  "agente": {
+    "cash": 1000,
+    "positions": [],
+    "history": []
+  },
+  "indice": {
+    "cash": 1000,
+    "positions": [],
+    "history": []
+  }
+}

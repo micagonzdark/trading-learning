@@ -1,0 +1,9 @@
+{
+  "capitalInicialPorJugador": 1000,
+  "empresasPermitidas": ["MELI", "SPOT", "AAPL", "MSFT", "NVDA", "DIS"],
+  "indiceReferencia": "SPY",
+  "maxPorcentajePorEmpresa": 0.20,
+  "stopLossPorcentaje": 0.15,
+  "minEfectivoPorcentaje": 0.10,
+  "fechaInicio": "2026-10-14"
+}
