@@ -1,0 +1,39 @@
+{
+  "fecha": "2026-10-17",
+  "timestamp": "2026-10-17T01:05:39.706Z",
+  "precios": {
+    "MELI": 1834,
+    "SPOT": 530.46,
+    "AAPL": 343.46,
+    "MSFT": 529.05,
+    "NVDA": 214.13,
+    "DIS": 110.59,
+    "SPY": 763.25
+  },
+  "noticias": {
+    "MELI": [
+      "Should You Buy, Sell or Hold MELI Stock at a P/S Valuation of 1.83X? - Yahoo Finance Australia",
+      "MercadoLibre, Inc. $MELI Stock: Ninety One UK Ltd Trims Stake - MarketBeat"
+    ],
+    "SPOT": [
+      "Spark New Zealand (NZSE:SPK) Stock Looks Undervalued Against Its Cash Flow Outlook - Yahoo Finance",
+      "Spotify Technology (NYSE:SPOT) Stock Rating Cut to Hold at Stonex Financia - MarketBeat"
+    ],
+    "AAPL": [
+      "Apple Inc. (AAPL) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+      "Apple Stock Hits Record High as iPhone Duo Pre-Orders Sell Out in Minutes - Benzinga"
+    ],
+    "MSFT": [
+      "Strong Azure Results Powered Microsoft Corporation’s (MSFT) Rally - Yahoo Finance",
+      "If AI Crumbles, Microsoft Wins (NASDAQ:MSFT) - Seeking Alpha"
+    ],
+    "NVDA": [
+      "This Magnificent Seven Stock Could Make Investors Richer by 2027 - 24/7 Wall St.",
+      "1 Obvious Metric That Makes Nvidia a Top Stock to Buy Now - Yahoo Finance"
+    ],
+    "DIS": [
+      "Disney Could Buy Character.ai. What That Means for DIS Stock. - Barchart.com",
+      "Netflix Stock Falls After Streamer Replaces Content Chief With Former Disney Exec - Barron's"
+    ]
+  }
+}

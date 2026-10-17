@@ -10,8 +10,28 @@
     "history": []
   },
   "indice": {
-    "cash": 1000,
-    "positions": [],
-    "history": []
+    "cash": 235.61,
+    "positions": [
+      {
+        "ticker": "SPY",
+        "shares": 1,
+        "avgPrice": 763.63
+      }
+    ],
+    "history": [
+      {
+        "id": "ord_mvbp3ekb_bhff",
+        "timestamp": "2026-10-17T01:05:39.707Z",
+        "ticker": "SPY",
+        "type": "BUY",
+        "shares": 1,
+        "price": 763.25,
+        "executedPrice": 763.63,
+        "commission": 0.76,
+        "slippage": 0.38,
+        "totalCost": 764.39,
+        "reason": "Primera corrida: Inversión pasiva en índice de referencia SPY"
+      }
+    ]
   }
 }

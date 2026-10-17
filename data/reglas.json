@@ -1,10 +1,17 @@
 {
   "_guia_alumno": "¡Podés cambiar los números de abajo para ajustar las reglas de la liga sin tocar código!",
   "capitalInicialPorJugador": 1000,
-  "empresasPermitidas": ["MELI", "SPOT", "AAPL", "MSFT", "NVDA", "DIS"],
+  "empresasPermitidas": [
+    "MELI",
+    "SPOT",
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "DIS"
+  ],
   "indiceReferencia": "SPY",
-  "maxPorcentajePorEmpresa": 0.20,
+  "maxPorcentajePorEmpresa": 0.2,
   "stopLossPorcentaje": 0.15,
-  "minEfectivoPorcentaje": 0.10,
-  "fechaInicio": ""
+  "minEfectivoPorcentaje": 0.1,
+  "fechaInicio": "2026-10-17"
 }
