@@ -1,39 +1,39 @@
 {
-  "fecha": "2026-10-17",
-  "timestamp": "2026-10-17T01:05:39.706Z",
+  "fecha": "2026-10-24",
+  "timestamp": "2026-10-24T01:24:01.003Z",
   "precios": {
-    "MELI": 1834,
-    "SPOT": 530.46,
-    "AAPL": 343.46,
-    "MSFT": 529.05,
-    "NVDA": 214.13,
-    "DIS": 110.59,
-    "SPY": 763.25
+    "MELI": 1810.15,
+    "SPOT": 584.22,
+    "AAPL": 347.73,
+    "MSFT": 524.51,
+    "NVDA": 210.96,
+    "DIS": 112.52,
+    "SPY": 759.97
   },
   "noticias": {
     "MELI": [
-      "Should You Buy, Sell or Hold MELI Stock at a P/S Valuation of 1.83X? - Yahoo Finance Australia",
-      "MercadoLibre, Inc. $MELI Stock: Ninety One UK Ltd Trims Stake - MarketBeat"
+      "MercadoLibre, Inc. (MELI) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+      "MercadoLibre, Inc. Estimates – NASDAQ:MELI - TradingView"
     ],
     "SPOT": [
-      "Spark New Zealand (NZSE:SPK) Stock Looks Undervalued Against Its Cash Flow Outlook - Yahoo Finance",
-      "Spotify Technology (NYSE:SPOT) Stock Rating Cut to Hold at Stonex Financia - MarketBeat"
+      "SPOT Stock Hits 10-Month High Despite Q3 Earnings Miss: Co-CEO Says Spotify ‘Is Now An Agent,’ Brushes Off AI Churn Fears - Yahoo Finance",
+      "Spotify Stock Jumps on Upbeat Q3 as AI Takes Center Stage - The Globe and Mail"
     ],
     "AAPL": [
-      "Apple Inc. (AAPL) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-      "Apple Stock Hits Record High as iPhone Duo Pre-Orders Sell Out in Minutes - Benzinga"
+      "Apple Is Up 28% This Year: Take Profits, or Hold On for the Ride? - Yahoo Finance",
+      "Apple Stock Hits Record High On iPhone Duo Launch - Investor's Business Daily"
     ],
     "MSFT": [
-      "Strong Azure Results Powered Microsoft Corporation’s (MSFT) Rally - Yahoo Finance",
-      "If AI Crumbles, Microsoft Wins (NASDAQ:MSFT) - Seeking Alpha"
+      "Strong Azure Growth and Cash Flow Discipline Strengthen Microsoft Corporation (MSFT) - Yahoo Finance",
+      "Could You Have Seen The Run In Microsoft Stock Coming? - Trefis"
     ],
     "NVDA": [
-      "This Magnificent Seven Stock Could Make Investors Richer by 2027 - 24/7 Wall St.",
-      "1 Obvious Metric That Makes Nvidia a Top Stock to Buy Now - Yahoo Finance"
+      "NVIDIA Corporation (NVDA) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+      "Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell - Barron's"
     ],
     "DIS": [
-      "Disney Could Buy Character.ai. What That Means for DIS Stock. - Barchart.com",
-      "Netflix Stock Falls After Streamer Replaces Content Chief With Former Disney Exec - Barron's"
+      "DIS Stock Quote Price and Forecast - CNN",
+      "Walt Disney (DIS) Rises As Market Takes a Dip: Key Facts - Yahoo Finance"
     ]
   }
 }
