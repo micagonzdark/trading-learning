@@ -1,39 +1,39 @@
 {
-  "fecha": "2026-10-24",
-  "timestamp": "2026-10-24T01:24:01.003Z",
+  "fecha": "2026-10-31",
+  "timestamp": "2026-10-31T02:03:31.806Z",
   "precios": {
-    "MELI": 1810.15,
-    "SPOT": 584.22,
-    "AAPL": 347.73,
-    "MSFT": 524.51,
-    "NVDA": 210.96,
-    "DIS": 112.52,
-    "SPY": 759.97
+    "MELI": 1624.53,
+    "SPOT": 593.44,
+    "AAPL": 344.63,
+    "MSFT": 521.91,
+    "NVDA": 204.64,
+    "DIS": 110.94,
+    "SPY": 755.72
   },
   "noticias": {
     "MELI": [
-      "MercadoLibre, Inc. (MELI) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-      "MercadoLibre, Inc. Estimates – NASDAQ:MELI - TradingView"
+      "MercadoLibre (MELI) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
+      "MercadoLibre Stock: Brazil Panicked, I’m Buying (NASDAQ:MELI) - Seeking Alpha"
     ],
     "SPOT": [
-      "SPOT Stock Hits 10-Month High Despite Q3 Earnings Miss: Co-CEO Says Spotify ‘Is Now An Agent,’ Brushes Off AI Churn Fears - Yahoo Finance",
-      "Spotify Stock Jumps on Upbeat Q3 as AI Takes Center Stage - The Globe and Mail"
+      "Is Trending Stock Spotify Technology (SPOT) a Buy Now? - Yahoo Finance",
+      "Is Spotify Technology SA (SPOT) Overvalued After 6.5% Rally? GF - GuruFocus"
     ],
     "AAPL": [
-      "Apple Is Up 28% This Year: Take Profits, or Hold On for the Ride? - Yahoo Finance",
-      "Apple Stock Hits Record High On iPhone Duo Launch - Investor's Business Daily"
+      "Apple Inc. (AAPL) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+      "Apple Sentiment Cautious On December-Ending Quarter Outlook - Investor's Business Daily"
     ],
     "MSFT": [
-      "Strong Azure Growth and Cash Flow Discipline Strengthen Microsoft Corporation (MSFT) - Yahoo Finance",
-      "Could You Have Seen The Run In Microsoft Stock Coming? - Trefis"
+      "FY27 Q1 - Press Releases - Investor Relations - Microsoft",
+      "Why Microsoft stock isn't getting crushed like Google stock after its earnings report - Yahoo Finance"
     ],
     "NVDA": [
-      "NVIDIA Corporation (NVDA) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-      "Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell - Barron's"
+      "Why Nvidia Stock Took a Dive Today - The Motley Fool",
+      "Can You Make Money Off NVIDIA Stock Now? - Trefis"
     ],
     "DIS": [
-      "DIS Stock Quote Price and Forecast - CNN",
-      "Walt Disney (DIS) Rises As Market Takes a Dip: Key Facts - Yahoo Finance"
+      "Walt Disney (DIS) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo Finance",
+      "Why Did Caterpillar Stock Fall? - Trefis"
     ]
   }
 }
