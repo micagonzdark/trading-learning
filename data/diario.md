@@ -45,3 +45,17 @@ Historial de decisiones semanales tomadas por el modelo de IA y validadas por la
   3. **indice**: $991.33 USD
 
 ---
+
+### Corrida del 2026-11-07 
+- **Cotizaciones**: MELI: $1510.00, SPOT: $603.01, AAPL: $342.37, MSFT: $530.61, NVDA: $186.64, DIS: $116.75, SPY: $735.29
+
+
+- **Decisión del Agente**: COMPRAR 1 NVDA
+- **Resultado Validación**: COMPRA - Compra ejecutada: 1 NVDA a $186.73 USD (Total: $187.23 USD)
+- **Motivo del Modelo**: "Decisión simulada para entorno sin clave API."
+- **Valuación de Jugadores**:
+  1. **moises**: $1000.00 USD
+  2. **agente**: $999.41 USD
+  3. **indice**: $970.90 USD
+
+---

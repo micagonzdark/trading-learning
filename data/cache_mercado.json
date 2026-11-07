@@ -1,39 +1,39 @@
 {
-  "fecha": "2026-10-31",
-  "timestamp": "2026-10-31T02:03:31.806Z",
+  "fecha": "2026-11-07",
+  "timestamp": "2026-11-07T02:34:05.883Z",
   "precios": {
-    "MELI": 1624.53,
-    "SPOT": 593.44,
-    "AAPL": 344.63,
-    "MSFT": 521.91,
-    "NVDA": 204.64,
-    "DIS": 110.94,
-    "SPY": 755.72
+    "MELI": 1510,
+    "SPOT": 603.01,
+    "AAPL": 342.37,
+    "MSFT": 530.61,
+    "NVDA": 186.64,
+    "DIS": 116.75,
+    "SPY": 735.29
   },
   "noticias": {
     "MELI": [
-      "MercadoLibre (MELI) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-      "MercadoLibre Stock: Brazil Panicked, I’m Buying (NASDAQ:MELI) - Seeking Alpha"
+      "MercadoLibre (MELI) Is Considered a Good Investment by Brokers: Is That True? - Yahoo Finance",
+      "What Is Behind The Move In MercadoLibre Stock? - Trefis"
     ],
     "SPOT": [
-      "Is Trending Stock Spotify Technology (SPOT) a Buy Now? - Yahoo Finance",
-      "Is Spotify Technology SA (SPOT) Overvalued After 6.5% Rally? GF - GuruFocus"
+      "Spotify Technology S.A. (SPOT) stock price, news, quote and history - Yahoo Finance UK",
+      "Spotify Technology SA (SPOT) Stock Up 4.6% but GF Value Says Ove - GuruFocus"
     ],
     "AAPL": [
-      "Apple Inc. (AAPL) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-      "Apple Sentiment Cautious On December-Ending Quarter Outlook - Investor's Business Daily"
+      "What Will Decide Apple Stock As Memory Costs Rise? - Trefis",
+      "Why the Democrat blue wave could be a good thing for Apple stock - Yahoo Finance"
     ],
     "MSFT": [
-      "FY27 Q1 - Press Releases - Investor Relations - Microsoft",
-      "Why Microsoft stock isn't getting crushed like Google stock after its earnings report - Yahoo Finance"
+      "Microsoft Corporation (MSFT) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+      "Microsoft: The Selloff Proved Why It's Different - Seeking Alpha"
     ],
     "NVDA": [
-      "Why Nvidia Stock Took a Dive Today - The Motley Fool",
-      "Can You Make Money Off NVIDIA Stock Now? - Trefis"
+      "Nvidia stock oversold setup: Key levels after a 9% drop - Yahoo Finance",
+      "Nvidia Stock Rises on Dip-Buying: 3 Reasons to Be Optimistic - Barron's"
     ],
     "DIS": [
-      "Walt Disney (DIS) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo Finance",
-      "Why Did Caterpillar Stock Fall? - Trefis"
+      "Disney (DIS) Stock Looks Fairly Valued As Cash Flow Holds Up - Yahoo Finance",
+      "DIS Stock Ticks Higher Overnight: Disney Reportedly Weighs Thousands Of Job Cuts In Fresh Cost-Cutting Push Under Josh D’Amaro - Stocktwits"
     ]
   }
 }

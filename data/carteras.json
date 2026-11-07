@@ -5,9 +5,29 @@
     "history": []
   },
   "agente": {
-    "cash": 1000,
-    "positions": [],
-    "history": []
+    "cash": 812.77,
+    "positions": [
+      {
+        "ticker": "NVDA",
+        "shares": 1,
+        "avgPrice": 186.73
+      }
+    ],
+    "history": [
+      {
+        "id": "ord_mw5si0u4_mhy4",
+        "timestamp": "2026-11-07T02:34:05.884Z",
+        "ticker": "NVDA",
+        "type": "BUY",
+        "shares": 1,
+        "price": 186.64,
+        "executedPrice": 186.73,
+        "commission": 0.5,
+        "slippage": 0.09,
+        "totalCost": 187.23,
+        "reason": "Decisión simulada para entorno sin clave API."
+      }
+    ]
   },
   "indice": {
     "cash": 235.61,
